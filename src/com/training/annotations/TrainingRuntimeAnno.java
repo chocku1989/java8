@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 //we have created a run time annoation
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface TrainingAnno {
+public @interface TrainingRuntimeAnno {
 	int id();
 
 	String name();
